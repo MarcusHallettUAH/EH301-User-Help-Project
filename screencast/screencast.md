@@ -1,3 +1,0 @@
-# Video Demonstration
-
-[Screen Cast]
