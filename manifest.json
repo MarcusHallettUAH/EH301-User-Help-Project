@@ -12,7 +12,7 @@
           "hash": "2z1vAqSna6RfYtlxn7p5Uw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -146,7 +146,7 @@
           "hash": "XOa3hIOFliXmEpPZNDuEEw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -155,10 +155,10 @@
       "output": {
         ".html": {
           "relative_path": "screencast/screencast.html",
-          "hash": "YCIYVT4ZYnqp1tgEqdLoYg=="
+          "hash": "PJ43pGoUXzKXslk5oo1P5Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
