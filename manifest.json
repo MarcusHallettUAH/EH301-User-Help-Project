@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/command-line.html",
-          "hash": "rS6BSlc7JyUUoXCZqsJodg=="
+          "hash": "t9UPtijjENeLaxQ+7J+lPg=="
         }
       },
       "is_incremental": false,
@@ -210,10 +210,10 @@
       "output": {
         ".html": {
           "relative_path": "screencast/screencast.html",
-          "hash": "PJ43pGoUXzKXslk5oo1P5Q=="
+          "hash": "Z8v1KL0un3tfsLhysFfu2Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
