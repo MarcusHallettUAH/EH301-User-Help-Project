@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/command-line.html",
-          "hash": "2z1vAqSna6RfYtlxn7p5Uw=="
+          "hash": "rS6BSlc7JyUUoXCZqsJodg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -51,10 +51,43 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/cd.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cd.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/clock.svg",
       "output": {
         "resource": {
           "relative_path": "images/clock.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/commands.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/commands.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/del.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/del.png"
         }
       },
       "is_incremental": false,
@@ -88,6 +121,28 @@
       "output": {
         "resource": {
           "relative_path": "images/helloworld.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/mdrd.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/mdrd.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/opencmd.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/opencmd.png"
         }
       },
       "is_incremental": false,
@@ -146,7 +201,7 @@
           "hash": "XOa3hIOFliXmEpPZNDuEEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -158,7 +213,7 @@
           "hash": "PJ43pGoUXzKXslk5oo1P5Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -193,6 +248,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -200,11 +260,6 @@
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
